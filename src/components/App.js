@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { BrowserRouter, Route } from 'react-router-dom';
-import Header from './Header';
+import Header from './Header/';
 import NavigationBar from './NavigationBar';
 import Home from '../Containers/Home';
 import About from '../Containers/About';
