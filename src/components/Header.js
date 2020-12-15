@@ -1,8 +1,12 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 const Header = () => {
+    const carouselStyles = {
+        'max-width':'900px',
+        'max-height':'600px !important'
+    }
     return(
-        <Carousel interval={2000}>
+        <Carousel interval={2000} style={carouselStyles}>
             <Carousel.Item>
                 <img className="d-block w-100" src='https://via.placeholder.com/800x400?text=Image1' alt='placeholder'/>
                 <Carousel.Caption>
