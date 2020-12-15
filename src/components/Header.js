@@ -1,6 +1,5 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import './header.css';
 const Header = () => {
     return(
         <Carousel interval={2000}>
