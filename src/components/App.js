@@ -9,22 +9,22 @@ import About from '../Containers/About';
 const App = () => {
     return(
         <Container fluid>
-            <Row>
-                <Col md={12}>
-                    <Header/>
-                </Col>
-            </Row>
             <BrowserRouter>
             <Row>
                 <Col md={12}>
                     <NavigationBar/>
+                    
+                </Col>
+            </Row>
+            <Row>
+                <Col md={12}>
+                    <Header/>
                 </Col>
             </Row>
             <Row>
                 <Col md={12}>
                     <Route path='/' exact component={Home}/>
                     <Route path='/about' component={About}/>
-                    
                 </Col>
             </Row>
             </BrowserRouter>
