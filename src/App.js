@@ -2,11 +2,11 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-import NavigationBar from './NavigationBar';
+import NavigationBar from './Parts/NavigationBar';
 
-import Home from '../Containers/Home';
-import About from '../Containers/About';
-import Fleet from '../Containers/Operations/Fleet';
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Fleet from './Pages/Operations/Fleet';
 
 const App = () => {
     return(
