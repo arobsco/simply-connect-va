@@ -6,7 +6,7 @@ const Header = props => {
         <Carousel interval={2000}>
             {props.carouselData.map(slide => {
                 return (
-                    <Carousel.Item>
+                    <Carousel.Item key={slide.id}>
                     <img className='d-block w-100' src={slide.url} alt={slide.alt}/>
                     <Carousel.Caption>
                     <h3>{slide.h3}</h3>
